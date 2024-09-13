@@ -1,0 +1,22 @@
+{
+  "name": "books_search",
+  "version": "1.0.0",
+  "description": "app for books search",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "author": "Rustem Khaziev",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.21.2",
+    "rollup-plugin-import-css": "^3.1.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
